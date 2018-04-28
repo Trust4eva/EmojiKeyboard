@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		59318C922092BBD40044B1A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59318C912092BBD40044B1A6 /* AppDelegate.swift */; };
-		59318C942092BBD40044B1A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59318C932092BBD40044B1A6 /* ViewController.swift */; };
 		59318C972092BBD40044B1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59318C952092BBD40044B1A6 /* Main.storyboard */; };
 		59318C992092BBD50044B1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59318C982092BBD50044B1A6 /* Assets.xcassets */; };
 		59318C9C2092BBD50044B1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59318C9A2092BBD50044B1A6 /* LaunchScreen.storyboard */; };
 		59318CA72092BBD60044B1A6 /* EmojiKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59318CA62092BBD60044B1A6 /* EmojiKeyboardTests.swift */; };
 		59318CB22092BBD60044B1A6 /* EmojiKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59318CB12092BBD60044B1A6 /* EmojiKeyboardUITests.swift */; };
+		599E12ED2092E44100C657A9 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E12EC2092E44100C657A9 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		59318C8E2092BBD40044B1A6 /* EmojiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59318C912092BBD40044B1A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59318C932092BBD40044B1A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59318C962092BBD40044B1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59318C982092BBD50044B1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59318C9B2092BBD50044B1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		59318CAD2092BBD60044B1A6 /* EmojiKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59318CB12092BBD60044B1A6 /* EmojiKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiKeyboardUITests.swift; sourceTree = "<group>"; };
 		59318CB32092BBD60044B1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599E12EC2092E44100C657A9 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				59318C912092BBD40044B1A6 /* AppDelegate.swift */,
-				59318C932092BBD40044B1A6 /* ViewController.swift */,
+				599E12EC2092E44100C657A9 /* CanvasViewController.swift */,
 				59318C952092BBD40044B1A6 /* Main.storyboard */,
 				59318C982092BBD50044B1A6 /* Assets.xcassets */,
 				59318C9A2092BBD50044B1A6 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59318C942092BBD40044B1A6 /* ViewController.swift in Sources */,
+				599E12ED2092E44100C657A9 /* CanvasViewController.swift in Sources */,
 				59318C922092BBD40044B1A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
